@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+h1{
+    text-transform: uppercase;
+    font-size:40px;
+    text-align: center;
+    margin-top: 80px;
+    color: transparent;
+    background: linear-gradient(rgb(174, 10, 224),rgb(218, 15, 8));
+    -webkit-background-clip: text;
+
+}
+        body {
+            background-color: rgba(0, 166, 196, 0.4);
+        }
+
+        .a {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .slide {
+            height:120px;
+            width: 100%;
+            margin-top: 80px;
+            display: inline-block;
+            animation: carousel;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        img {
+
+            height: 50px;
+            padding: 10px;
+            margin-top: 14px;
+ background-color: rgb(227, 240, 172);
+        }
+
+        @keyframes carousel {
+            from {
+                transform: translatex(0%);
+            }
+
+            to {
+                transform: translatex(-100%);
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>carousel animation</h1>
+    <div class="a">
+        <div class="slide">
+            <img src="tesla-logo.webp" alt="">
+            <img src="bmw.webp" alt="">
+            <img src="BMW (2).webp" alt="">
+            <img src="maserat.png" alt="">
+            <img src="mazda.png" alt="">
+            <img src="Mitsubish.webp" alt="">
+            <img src="Mustang.webp" alt="">
+            <img src="bentley.webp" alt="">
+            <img src="honda.webp" alt="">
+            <img src="ford.webp" alt="">
+            <img src="hyundai.webp" alt="">
+            <img src="jeep.webp" alt="">
+            <img src="KTM.jpg" alt="">
+            <img src="lamborghini.webp" alt="">
+            <img src="ferrari.webp" alt="">
+            <img src="Lotus.webp" alt="">
+            <img src="porsche.webp" alt="">
+            <img src="Rolls-Royce-.webp" alt="">
+            <img src="Volvo-logo-2014-640x550.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="tesla-logo.webp" alt="">
+            <img src="bmw.webp" alt="">
+            <img src="BMW (2).webp" alt="">
+            <img src="maserat.png" alt="">
+            <img src="mazda.png" alt="">
+            <img src="Mitsubish.webp" alt="">
+            <img src="Mustang.webp" alt="">
+            <img src="bentley.webp" alt="">
+            <img src="honda.webp" alt="">
+            <img src="ford.webp" alt="">
+            <img src="hyundai.webp" alt="">
+            <img src="jeep.webp" alt="">
+            <img src="KTM.jpg" alt="">
+            <img src="lamborghini.webp" alt="">
+            <img src="ferrari.webp" alt="">
+            <img src="Lotus.webp" alt="">
+            <img src="porsche.webp" alt="">
+            <img src="Rolls-Royce-.webp" alt="">
+            <img src="Volvo-logo-2014-640x550.jpg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
